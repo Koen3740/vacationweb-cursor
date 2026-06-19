@@ -5,22 +5,19 @@ const destinations = [
   {
     name: "Mallorca",
     days: 6,
-    image:
-      "image: "/images/mallorca.jpg",
+    image: "/images/mallorca.png",
     highlight: false,
   },
   {
     name: "Griekenland",
     days: 8,
-    image:
-      "image: "/images/griekenland.jpg",
+    image: "/images/griekenland.png",
     highlight: false,
   },
   {
     name: "Turkije",
     days: 10,
-    image:
-      "image: "/images/turkije.jpg",
+    image: "/images/turkije.png",
     highlight: true,
   },
 ];
