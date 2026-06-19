@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     "Ontdek waar jouw budget de meeste vakantiewaarde oplevert. Vergelijk vakanties van zorgvuldig geselecteerde reispartners vanuit één centraal overzicht.",
 
   verification: {
-    other: {
-      "tradetracker-site-verification":
-        "ccab36678c2e6db73bf84d2d678df3da8d7b812f",
-		 "b07ba393d880b3521ed1b2ff19fc9aa425113cfa",
-    },
+  other: {
+    "tradetracker-site-verification": [
+      "ccab36678c2e6db73bf84d2d678df3da8d7b812f",
+      "b07ba393d880b3521ed1b2ff19fc9aa425113cfa",
+    ],
   },
-};
+},
 
 export default function RootLayout({
   children,
