@@ -4,27 +4,30 @@ import { ArrowRight, Sparkles } from "lucide-react";
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-50 via-white to-slate-50" />
-        <div className="absolute -right-32 -top-32 h-[500px] w-[500px] rounded-full bg-brand-200/30 blur-3xl" />
-        <div className="absolute -bottom-32 -left-32 h-[400px] w-[400px] rounded-full bg-amber-200/20 blur-3xl" />
-      </div>
+     <div className="absolute inset-0 -z-10">
+  <img
+    src="/images/hero.png"
+    alt="VacationWeb Hero"
+    className="h-full w-full object-cover"
+  />
+  <div className="absolute inset-0 bg-black/35" />
+</div>
 
       <div className="mx-auto max-w-7xl px-6 pb-24 pt-16 lg:px-8 lg:pb-32 lg:pt-24">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto max-w-3xl text-center relative z-10">
           <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50 px-4 py-1.5 text-sm font-medium text-brand-700">
             <Sparkles className="h-4 w-4 text-brand-500" />
             Een nieuwe manier om vakantie te zoeken
           </div>
 
-          <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl lg:leading-[1.1]">
+          <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl lg:leading-[1.1]">
             Meer vakantie
             <span className="block bg-gradient-to-r from-brand-600 to-brand-400 bg-clip-text text-transparent">
               voor jouw budget
             </span>
           </h1>
 
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-600 sm:text-xl">
+          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white/90 sm:text-xl">
             Vergelijk vakanties van zorgvuldig geselecteerde reispartners
             vanuit één centraal overzicht — en ontdek waar jouw geld het
             meeste oplevert.

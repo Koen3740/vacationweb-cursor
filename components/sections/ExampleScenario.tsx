@@ -5,22 +5,19 @@ const destinations = [
   {
     name: "Mallorca",
     days: 6,
-    image:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+    image: "/images/mallorca.png",
     highlight: false,
   },
   {
     name: "Griekenland",
     days: 8,
-    image:
-      "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=800&q=80",
+    image: "/images/griekenland.png",
     highlight: false,
   },
   {
     name: "Turkije",
     days: 10,
-    image:
-      "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80",
+    image: "/images/turkije.png",
     highlight: true,
   },
 ];
@@ -35,7 +32,7 @@ export default function ExampleScenario() {
             Meer vakantie voor hetzelfde budget
           </h2>
           <p className="section-subtext mx-auto mt-6 max-w-2xl">
-            Budget €1.000 per persoon · Flexibel tussen 10 juli en 20 augustus
+            Budget €1.000 per persoon
           </p>
         </div>
 
