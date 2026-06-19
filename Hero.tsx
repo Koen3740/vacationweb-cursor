@@ -4,7 +4,6 @@ import { ArrowRight, Sparkles } from "lucide-react";
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute inset-0 -z-10">
      <div className="absolute inset-0 -z-10">
   <img
     src="/images/hero.png"
