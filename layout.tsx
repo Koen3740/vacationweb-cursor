@@ -17,7 +17,6 @@ export const metadata: Metadata = {
   other: {
     "tradetracker-site-verification": [
       "ccab36678c2e6db73bf84d2d678df3da8d7b812f",
-      "b07ba393d880b3521ed1b2ff19fc9aa425113cfa",
     ],
   },
 },
