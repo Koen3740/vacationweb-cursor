@@ -27,14 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-  <html lang="nl" className={inter.variable}>
-    <head>
-      <meta
-        name="tradetracker-site-verification"
-        content="b07ba393d880b3521ed1b2ff19fc9aa425113cfa"
-      />
-    </head>
-
+  <html lang="nl" className={inter.variable}>      
         <body className="font-sans">{children}</body>
   </html>
   );
